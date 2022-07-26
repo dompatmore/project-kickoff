@@ -8,7 +8,7 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "server": "node server.js",
-    "ci": "start-server-and-test server http://localhost:3000 cypress:run"
+    "e2e": "start-server-and-test server http://localhost:3000 cypress:run"
   },
   "repository": {
     "type": "git",

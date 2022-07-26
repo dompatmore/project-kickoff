@@ -1,0 +1,26 @@
+{
+  "name": "project-kickoff",
+  "version": "1.0.0",
+  "description": "Ways we can be successful in our project:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dompatmore/project-kickoff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dompatmore/project-kickoff/issues"
+  },
+  "homepage": "https://github.com/dompatmore/project-kickoff#readme",
+  "devDependencies": {
+    "cypress": "^10.3.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

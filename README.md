@@ -15,5 +15,8 @@ Ways we can be successful in our project:
 [ ] Our expectations are realistic
 [ ] We take responsibility together 
 [ ] We don't overwork
+[ ] We know where we are in the project
+[ ] We test often
+[ ] We deploy little and often
 [ ] We're honest about our abilities
-[ ] We don't follow arbitrary rules
+[ ] We make our own rules

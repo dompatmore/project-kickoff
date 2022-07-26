@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "server": "node server.js",
+    "ci": "start-server-and-test server http://localhost:3000 cypress:run"
   },
   "repository": {
     "type": "git",
@@ -18,7 +21,8 @@
   },
   "homepage": "https://github.com/dompatmore/project-kickoff#readme",
   "devDependencies": {
-    "cypress": "^10.3.1"
+    "cypress": "^10.3.1",
+    "start-server-and-test": "^1.14.0"
   },
   "dependencies": {
     "express": "^4.18.1"

@@ -13,7 +13,8 @@ Today we looked at how you could use Cypress and CircleCI to take a TDD approach
 
     Runs the tests locally *without* writing the required code to make them pass.
 
-4. Now that you have tests that are red, do the minimum amount of work to make them green. At this point you may find you need to open two server tabs, so check out https://github.com/bahmutov/start-server-and-test. 
+4. Now that you have tests that are red, do the minimum amount of work to make them green ( You may want to follow the guide here: http://expressjs.com/en/starter/installing.html) .
+At this point you may find you need to open two server tabs, so check out https://github.com/bahmutov/start-server-and-test. 
 
 5. Once you all can get your tests passing locally, try to set up your project in Circle CI. This make take a few goes, but when you reach see that 'Success' button, celebrate!
 
